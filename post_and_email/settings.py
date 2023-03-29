@@ -94,7 +94,7 @@ DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'posts_and_email',
+        'NAME': 'dbname',
         'USER': 'kirillsql',
         'PASSWORD': 'test4356',
         'HOST': 'localhost',
@@ -125,7 +125,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
 
-LANGUAGE_CODE = 'ru-ru'
+LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
 
